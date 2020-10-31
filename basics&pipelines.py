@@ -64,20 +64,12 @@ with client.pipeline() as p:                      # "With" operator automaticall
     print(p.execute())                            # [True, True, 10] Again first two operation returned True ~ means success
 
 
-
 """
-    def set(self, name, value,
-            ex=None, px=None, nx=False, xx=False, keepttl=False):
+Other useful commands and information:
 
-        Set the value at key ``name`` to ``value``
+client.flushall()       -   deletes everything
+client.exists(*names)   -   returns the number of elements that exist
+client.keys()           -   returns the list of all names (keys)
+pipeline.reset()        -   reset previous commands
 
-        ``ex`` sets an expire flag on key ``name`` for ``ex`` seconds.
-
-        ``px`` sets an expire flag on key ``name`` for ``px`` milliseconds.
-
-        ``nx`` if set to True, set the value at key ``name`` to ``value`` only
-            if it does not exist.
-
-        ``xx`` if set to True, set the value at key ``name`` to ``value`` only
-            if it already exists.
 """
