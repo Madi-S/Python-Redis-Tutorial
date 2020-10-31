@@ -70,6 +70,7 @@ Other useful commands and information:
 client.flushall()       -   deletes everything
 client.exists(*names)   -   returns the number of elements that exist
 client.keys()           -   returns the list of all names (keys)
+client.close()          -   to disconnect from the redis server
 pipeline.reset()        -   reset previous commands
 
 """
