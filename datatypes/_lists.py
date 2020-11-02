@@ -1,4 +1,3 @@
-
 import redis
 
 mylist = list() # To make sure you understand everything corresponding commands in redis for lists will be shown with python lists' commands
