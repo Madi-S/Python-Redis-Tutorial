@@ -1,7 +1,10 @@
 
 import redis
 
-mylist = list()
+mylist = list() # To make sure you understand everything corresponding commands in redis for lists will be shown with python lists' commands
+
+
+# In this tutorial we are gonna cover following commands for lists:
 
 # Lists
 # lpush & rpush
