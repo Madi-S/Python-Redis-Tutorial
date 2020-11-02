@@ -1,5 +1,6 @@
-
 import redis
+
+# In this tutorial we are gonna cover following commands for hashes:
 
 # hset (with mapping)
 # hget
