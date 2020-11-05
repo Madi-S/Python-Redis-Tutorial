@@ -3,7 +3,6 @@ import redis
 # To make sure you understand everything corresponding commands in redis for lists will be shown with python sets' commands:
 myset = set()
 
-
 # Redis sets are an unordered collection of strings
 # In this tutorial we are gonna cover following commands for sets:
 # sadd
