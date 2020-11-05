@@ -1,5 +1,7 @@
 import redis
 
+# Unfortunately, python dictionaries do not have such variety of methods, so we are unable to compare similar commands.
+# Redis hashes are basically dictionaries with some more advanced commands
 # In this tutorial we are gonna cover following commands for hashes:
 
 # hset (with mapping)
