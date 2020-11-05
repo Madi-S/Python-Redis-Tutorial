@@ -2,7 +2,7 @@ import redis
 
 mylist = list() # To make sure you understand everything corresponding commands in redis for lists will be shown with python lists' commands
 
-
+# Redis lists are collection of strings, which follow the insertion order (that can be repeated)
 # In this tutorial we are gonna cover following commands for lists:
 
 # Lists
