@@ -3,6 +3,8 @@ import pickle
 import datetime
 import time
 
+# In this tutorial we are gonna cover basics of redis client commands and how to use pipelines
+
 # To connect to redis server
 client = redis.Redis(host='127.0.0.1', port=6379)
 
